@@ -1,0 +1,154 @@
+@import url(https://fonts.google.com/specimen/Oswald?query=oswald);
+
+
+*{
+    /* background-color: grey; */
+    box-sizing: border-box;
+    padding: px 25px 25px 25px;
+}
+/*This how to traget all of your HTML code, tis shows hwo to chnage the background colou.*/
+
+/*Box sizing: border-box resets the border to the whole HTML, as most borders have thier own settings.*/
+
+/* Padding: one value (number) represenets padding on all slides. Two represents top and bottoem. Three values represnt top, right and left. Four values represent top, right, bottom and left. */
+
+/* Box Size */
+body{
+    margin: 30px;
+    background-image: url("background.jpg");
+}
+
+h1{
+    Color: black;
+    font-size: 120px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+h2{
+    Color: black;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/* This is how to target an element within our HTML and chnage the colour and size of it */
+
+/* Class Selector */
+.brand{
+    background-color:white ;
+
+}
+.welcome{
+    background-color: rgba(0, 0, 0, 0) ;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* This how to taget a class */
+
+.large{
+    font-size: 30px;
+}
+
+.price{
+    background-color: rgba(0, 0, 0, 0) ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.pl{
+    background-color: rgba(0, 0, 0, 0) ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+/* Images Classes */
+
+.area{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; height: ;
+}
+
+.gallery{
+    display: block;
+    max-width: 30%; height: 50%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.contact{
+    margin: auto;
+    max-width: 100%;
+}
+
+/* ID Selection */
+#whitetext{
+    color:white
+}
+/* This how to target an ID */
+
+#imagex{
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    text-align: center;
+}
+/* chnage the size of your image using % */
+
+/* RGB example */
+p{
+    color: rgb(0,0,0,0.5);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+/* Font Properties */
+
+/* Flexbox */
+#navbar{
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+
+#navbar a:hover{
+    color: indigo;
+}
+
+/* .row{
+    display: flex;
+}
+
+.column{
+    width: 15%;
+    padding: 5px;
+} */
